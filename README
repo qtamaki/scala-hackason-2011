@@ -1,2 +1,24 @@
-Hello, ganna happy hacking!
+Hello! this project is examples for Processing with Scala.
+
+SETUP
+
+1. download and install processing
+
+2. install your local Maven Repository.
+gathering jars in the processing directories.
+processing-1.5.1/lib
+core.jar
+ech.jar
+processing-1.5.1/modes/java/libraries/opengl/library
+gluegen-rt.jar
+jogl.jar
+opengl.jar
+
+and install-file commands
+
+mvn install:install-file  -Dfile=core.jar -DgroupId=org.processing -DartifactId=core -Dversion=1.5.1 -Dpackaging=jar -DlocalRepositoryPath=path/to/repository
+mvn install:install-file  -Dfile=ecj.jar -DgroupId=org.processing -DartifactId=ecj -Dversion=1.5.1 -Dpackaging=jar -DlocalRepositoryPath=path/to/repository
+mvn install:install-file  -Dfile=gluegen-rt.jar -DgroupId=org.processing -DartifactId=gluegen-rt -Dversion=1.5.1 -Dpackaging=jar -DlocalRepositoryPath=path/to/repository
+mvn install:install-file  -Dfile=jogl.jar -DgroupId=org.processing -DartifactId=jogl -Dversion=1.5.1 -Dpackaging=jar -DlocalRepositoryPath=path/to/repository
+mvn install:install-file  -Dfile=opengl.jar -DgroupId=org.processing -DartifactId=opengl -Dversion=1.5.1 -Dpackaging=jar -DlocalRepositoryPath=path/to/repository
 
