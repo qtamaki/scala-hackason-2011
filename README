@@ -22,3 +22,4 @@ mvn install:install-file  -Dfile=gluegen-rt.jar -DgroupId=org.processing -Dartif
 mvn install:install-file  -Dfile=jogl.jar -DgroupId=org.processing -DartifactId=jogl -Dversion=1.5.1 -Dpackaging=jar -DlocalRepositoryPath=path/to/repository
 mvn install:install-file  -Dfile=opengl.jar -DgroupId=org.processing -DartifactId=opengl -Dversion=1.5.1 -Dpackaging=jar -DlocalRepositoryPath=path/to/repository
 
+
